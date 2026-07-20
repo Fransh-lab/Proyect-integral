@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Noticias | Viajando</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <!--================ NAVBAR ================-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-airplane"></i>
+                Viajando
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="bi bi-house"></i>
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">
+                            <i class="bi bi-people"></i>
+                            Nosotros
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">
+                            <i class="bi bi-bag"></i>
+                            Tienda
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">
+                            <i class="bi bi-envelope"></i>
+                            Contacto
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">
+                            <i class="bi bi-journal-text"></i>
+                            Blog
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="noticias.html">
+                            <i class="bi bi-newspaper"></i>
+                            Noticias
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!--================ TITULO ================-->
+
+    <section class="container text-center my-5">
+
+        <h1 class="display-5">
+
+            <i class="bi bi-newspaper text-primary"></i>
+
+            Noticias y Novedades
+
+        </h1>
+
+        <p class="lead">
+
+            Mantente informado sobre nuestras promociones, nuevos destinos y avisos importantes.
+
+        </p>
+
+    </section>
+
+    <!--================ TABS ================-->
+
+    <div class="container mb-5">
+
+        <ul class="nav nav-tabs justify-content-center" id="tabsNoticias" role="tablist">
+
+            <li class="nav-item">
+
+                <button class="nav-link active"
+                    data-bs-toggle="tab"
+                    data-bs-target="#promociones">
+
+                    Promociones
+
+                </button>
+
+            </li>
+
+            <li class="nav-item">
+
+                <button class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#destinos">
+
+                    Nuevos Destinos
+
+                </button>
+
+            </li>
+
+            <li class="nav-item">
+
+                <button class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#avisos">
+
+                    Avisos
+
+                </button>
+
+            </li>
+
+        </ul>
+
+        <div class="tab-content border border-top-0 p-4 shadow">
+
+            <!--================ PROMOCIONES ================-->
+
+            <div class="tab-pane fade show active" id="promociones">
+
+                <div class="alert alert-success">
+
+                    <h4>
+
+                        <i class="bi bi-gift-fill"></i>
+
+                        Promoción Especial
+
+                    </h4>
+
+                    Reserva cualquier paquete internacional y recibe un
+                    <strong>20% de descuento</strong> durante este mes.
+
+                </div>
+
+                <div class="alert alert-info">
+
+                    <h4>
+
+                        <i class="bi bi-credit-card-fill"></i>
+
+                        Facilidades de Pago
+
+                    </h4>
+
+                    Ahora puedes pagar tus viajes hasta en 12 cuotas sin intereses.
+
+                </div>
+
+            </div>
+
+            <!--================ DESTINOS ================-->
+
+            <div class="tab-pane fade" id="destinos">
+
+                <div class="alert alert-primary">
+
+                    <h4>
+
+                        <i class="bi bi-airplane-engines-fill"></i>
+
+                        Nuevo Destino
+
+                    </h4>
+
+                    Hemos incorporado paquetes turísticos a Cancún y Cartagena.
+
+                </div>
+
+                <div class="alert alert-warning">
+
+                    <h4>
+
+                        <i class="bi bi-globe-americas"></i>
+
+                        Próximamente
+
+                    </h4>
+
+                    Muy pronto ofreceremos viajes a Europa con promociones exclusivas.
+
+                </div>
+
+            </div>
+
+            <!--================ AVISOS ================-->
+
+            <div class="tab-pane fade" id="avisos">
+
+                <div class="alert alert-danger">
+
+                    <h4>
+
+                        <i class="bi bi-exclamation-triangle-fill"></i>
+
+                        Aviso Importante
+
+                    </h4>
+
+                    Verifique siempre la vigencia de su pasaporte antes de realizar una reserva.
+
+                </div>
+
+                <div class="alert alert-secondary">
+
+                    <h4>
+
+                        <i class="bi bi-clock-history"></i>
+
+                        Horario
+
+                    </h4>
+
+                    Nuestra atención es de lunes a viernes de 9:00 a.m. a 6:00 p.m.
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--================ ACORDEON ================-->
+
+    <section class="container mb-5">
+
+        <h2 class="text-center mb-4">
+
+            <i class="bi bi-megaphone-fill text-primary"></i>
+
+            Más Novedades
+
+        </h2>
+
+        <div class="accordion" id="acordeonNoticias">
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#noticia1">
+
+                        Nuevas rutas disponibles
+
+                    </button>
+
+                </h2>
+
+                <div id="noticia1"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#acordeonNoticias">
+
+                    <div class="accordion-body">
+
+                        Hemos ampliado nuestras rutas hacia nuevos destinos
+                        nacionales e internacionales para brindar más opciones
+                        a nuestros clientes.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#noticia2">
+
+                        Beneficios para clientes frecuentes
+
+                    </button>
+
+                </h2>
+
+                <div id="noticia2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#acordeonNoticias">
+
+                    <div class="accordion-body">
+
+                        Los clientes frecuentes acumulan puntos y reciben
+                        descuentos exclusivos en futuras reservas.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#noticia3">
+
+                        Recomendaciones de viaje
+
+                    </button>
+
+                </h2>
+
+                <div id="noticia3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#acordeonNoticias">
+
+                    <div class="accordion-body">
+
+                        Lleva siempre contigo tu documentación, seguro de viaje
+                        y verifica los requisitos sanitarios del destino elegido.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ FOOTER ================-->
+
+    <footer class="bg-dark text-white text-center p-4">
+
+        <p>
+
+            © 2026 Viajando
+
+        </p>
+
+        <i class="bi bi-facebook fs-4"></i>
+
+        <i class="bi bi-instagram fs-4 mx-3"></i>
+
+        <i class="bi bi-youtube fs-4"></i>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

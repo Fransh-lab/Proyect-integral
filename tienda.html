@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda | Viajando</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+<!--==================== NAVBAR ====================-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+
+        <a class="navbar-brand" href="index.html">
+            <i class="bi bi-airplane"></i> Viajando
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <i class="bi bi-house"></i> Inicio
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">
+                        <i class="bi bi-people"></i> Nosotros
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="tienda.html">
+                        <i class="bi bi-bag"></i> Tienda
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">
+                        <i class="bi bi-envelope"></i> Contacto
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">
+                        <i class="bi bi-journal-text"></i> Blog
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">
+                        <i class="bi bi-newspaper"></i> Noticias
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+<!--==================== TITULO ====================-->
+
+<section class="container text-center my-5">
+
+    <h1 class="display-5">
+        <i class="bi bi-shop text-primary"></i>
+        Nuestra Tienda
+    </h1>
+
+    <p class="lead">
+        Descubre nuestros mejores paquetes turísticos.
+    </p>
+
+</section>
+
+<!--==================== TABS ====================-->
+
+<div class="container">
+
+    <ul class="nav nav-tabs justify-content-center" id="tabsViajes" role="tablist">
+
+        <li class="nav-item">
+
+            <button class="nav-link active"
+                    data-bs-toggle="tab"
+                    data-bs-target="#internacionales">
+
+                Internacionales
+
+            </button>
+
+        </li>
+
+        <li class="nav-item">
+
+            <button class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#nacionales">
+
+                Nacionales
+
+            </button>
+
+        </li>
+
+        <li class="nav-item">
+
+            <button class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#promociones">
+
+                Promociones
+
+            </button>
+
+        </li>
+
+    </ul>
+
+    <div class="tab-content mt-4">
+
+        <!--================ INTERNACIONALES =================-->
+
+        <div class="tab-pane fade show active" id="internacionales">
+
+            <div class="row">
+
+                <div class="col-md-4 mb-4">
+
+                    <div class="card h-100 shadow">
+
+                        <img src="img/brasil.jpg"
+                             class="card-img-top img-fluid"
+                             alt="Brasil">
+
+                        <div class="card-body text-center">
+
+                            <h4>Brasil</h4>
+
+                            <p>7 días y 6 noches.</p>
+
+                            <h5 class="text-primary">$950</h5>
+
+                            <button
+                                class="btn btn-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Reserva tu viaje">
+
+                                <i class="bi bi-cart"></i>
+                                Comprar
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mb-4">
+
+                    <div class="card h-100 shadow">
+
+                        <img src="img/punta cana.jpg"
+                             class="card-img-top img-fluid"
+                             alt="Punta Cana">
+
+                        <div class="card-body text-center">
+
+                            <h4>Punta Cana</h4>
+
+                            <p>Todo incluido.</p>
+
+                            <h5 class="text-success">$1250</h5>
+
+                            <button
+                                class="btn btn-success"
+                                data-bs-toggle="tooltip"
+                                title="Oferta exclusiva">
+
+                                <i class="bi bi-cart"></i>
+                                Comprar
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mb-4">
+
+                    <div class="card h-100 shadow">
+
+                        <img src="img/miami.jpg"
+                             class="card-img-top img-fluid"
+                             alt="Miami">
+
+                        <div class="card-body text-center">
+
+                            <h4>Miami</h4>
+
+                            <p>Compras y diversión.</p>
+
+                            <h5 class="text-danger">$1350</h5>
+
+                            <button
+                                class="btn btn-danger"
+                                data-bs-toggle="tooltip"
+                                title="Últimos cupos">
+
+                                <i class="bi bi-cart"></i>
+                                Comprar
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--================ NACIONALES =================-->
+
+        <div class="tab-pane fade" id="nacionales">
+
+            <div class="row">
+
+                <div class="col-md-6 mb-4">
+
+                    <div class="card shadow">
+
+                        <div class="card-body">
+
+                            <h4>Machu Picchu</h4>
+
+                            <p>Paquete de 3 días.</p>
+
+                            <button
+                                class="btn btn-warning"
+                                data-bs-toggle="tooltip"
+                                title="Incluye hospedaje">
+
+                                Reservar
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-4">
+
+                    <div class="card shadow">
+
+                        <div class="card-body">
+
+                            <h4>Paracas</h4>
+
+                            <p>Tour completo.</p>
+
+                            <button
+                                class="btn btn-warning"
+                                data-bs-toggle="tooltip"
+                                title="Incluye movilidad">
+
+                                Reservar
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--================ PROMOCIONES =================-->
+
+        <div class="tab-pane fade" id="promociones">
+
+            <div class="alert alert-success">
+
+                <h4>
+                    <i class="bi bi-gift"></i>
+                    Promoción Especial
+                </h4>
+
+                Reserva este mes y obtén un <strong>20% de descuento</strong> en cualquier paquete internacional.
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--==================== BENEFICIOS ====================-->
+
+<section class="container my-5">
+
+    <div class="row text-center">
+
+        <div class="col-md-4">
+
+            <i class="bi bi-airplane fs-1 text-primary"></i>
+
+            <h4>Vuelos</h4>
+
+            <p>Las mejores aerolíneas.</p>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <i class="bi bi-building fs-1 text-success"></i>
+
+            <h4>Hoteles</h4>
+
+            <p>Hospedajes certificados.</p>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <i class="bi bi-shield-check fs-1 text-danger"></i>
+
+            <h4>Seguridad</h4>
+
+            <p>Viaja con tranquilidad.</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== FOOTER ====================-->
+
+<footer class="bg-dark text-white text-center p-4">
+
+    <p class="mb-2">
+        © 2026 Viajando
+    </p>
+
+    <i class="bi bi-facebook fs-4"></i>
+
+    <i class="bi bi-instagram fs-4 mx-3"></i>
+
+    <i class="bi bi-youtube fs-4"></i>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+
+tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+    new bootstrap.Tooltip(tooltipTriggerEl);
+});
+
+</script>
+
+</body>
+</html>
