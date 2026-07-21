@@ -31,3 +31,126 @@ footer i{
 .carousel-indicators .active {
     background-color: #0d6efd;
 }
+
+
+
+
+.menu-fijo {
+    position: sticky;
+    top: 80px;
+}
+
+#menuNosotros .nav-link {
+    color: #212529;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    margin-bottom: 0.125rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#menuNosotros .nav-link:hover {
+    background-color: #e9ecef;
+}
+
+
+.scroll-area {
+    max-height: 500px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+
+.seccion {
+    display: none;
+    padding: 20px 0;
+    border-bottom: 1px solid #dee2e6;
+    animation: fadeIn 0.4s ease-in;
+}
+
+.seccion:last-child {
+    border-bottom: none;
+}
+
+.seccion:target {
+    display: block;
+}
+
+
+.contenido-wrapper:not(:has(:target)) .seccion:first-child {
+    display: block;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.contenido-wrapper:has(#historia-seccion:target) #link-historia,
+.contenido-wrapper:not(:has(:target)) #link-historia {
+    background-color: #0d6efd;
+    color: white !important;
+    border-color: #0d6efd;
+}
+
+.contenido-wrapper:has(#mision-seccion:target) #link-mision {
+    background-color: #0d6efd;
+    color: white !important;
+    border-color: #0d6efd;
+}
+
+.contenido-wrapper:has(#vision-seccion:target) #link-vision {
+    background-color: #0d6efd;
+    color: white !important;
+    border-color: #0d6efd;
+}
+
+
+.seccion .accordion-button:not(.collapsed) {
+    background-color: #e7f1ff;
+    color: #0d6efd;
+}
+
+.seccion .accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+
+@media (max-width: 768px) {
+    .menu-fijo {
+        position: relative;
+        top: 0;
+        margin-bottom: 20px;
+    }
+
+    .scroll-area {
+        max-height: 400px;
+    }
+}
+
+
+.seccion h2 {
+    margin-bottom: 1rem;
+}
+
+.seccion .bg-light,
+.seccion .bg-primary,
+.seccion .bg-danger {
+    border-radius: 0.5rem;
+}
+
+.seccion ul {
+    padding-left: 1.5rem;
+}
+
+.seccion ul li {
+    margin-bottom: 0.5rem;
+}
