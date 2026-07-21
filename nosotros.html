@@ -1,438 +1,363 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Nosotros | Viajando</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/styles.css" />
-  </head>
 
-  <body>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <i class="bi bi-airplane"></i>
-          Viajando
-        </a>
+        <div class="container">
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#menu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-airplane"></i>
+                Viajando
+            </a>
 
-        <div class="collapse navbar-collapse" id="menu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">
-                <i class="bi bi-house"></i>
-                Inicio
-              </a>
-            </li>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <li class="nav-item">
-              <a class="nav-link active" href="nosotros.html">
-                <i class="bi bi-people"></i>
-                Nosotros
-              </a>
-            </li>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="bi bi-house"></i> Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="nosotros.html">
+                            <i class="bi bi-people"></i> Nosotros
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">
+                            <i class="bi bi-bag"></i> Tienda
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">
+                            <i class="bi bi-envelope"></i> Contacto
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">
+                            <i class="bi bi-journal-text"></i> Blog
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticias.html">
+                            <i class="bi bi-newspaper"></i> Noticias
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-            <li class="nav-item">
-              <a class="nav-link" href="tienda.html">
-                <i class="bi bi-bag"></i>
-                Tienda
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">
-                <i class="bi bi-envelope"></i>
-                Contacto
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">
-                <i class="bi bi-journal-text"></i>
-                Blog
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="noticias.html">
-                <i class="bi bi-newspaper"></i>
-                Noticias
-              </a>
-            </li>
-          </ul>
         </div>
-      </div>
     </nav>
 
     <section class="bg-light py-5 text-center">
-      <div class="container">
-        <h1 class="display-4">
-          <i class="bi bi-people-fill text-primary"></i>
-          Nosotros
-        </h1>
-
-        <p class="lead">
-          Somos una empresa dedicada a crear experiencias inolvidables alrededor
-          del mundo.
-        </p>
-      </div>
+        <div class="container">
+            <h1 class="display-4">
+                <i class="bi bi-people-fill text-primary"></i>
+                Nosotros
+            </h1>
+            <p class="lead">
+                Somos una empresa dedicada a crear experiencias inolvidables alrededor del mundo.
+            </p>
+        </div>
     </section>
 
     <div class="container my-5">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="nav nav-pills flex-column sticky-top pt-3">
-            <a class="nav-link active" href="#historia">
-              <i class="bi bi-clock-history"></i>
-              Historia
-            </a>
+        <div class="row">
 
-            <a class="nav-link" href="#mision">
-              <i class="bi bi-bullseye"></i>
-              Misión
-            </a>
 
-            <a class="nav-link" href="#vision">
-              <i class="bi bi-eye"></i>
-              Visión
-            </a>
-          </div>
+            <div class="col-md-3">
+                <div id="menuNosotros" class="nav nav-pills flex-column menu-fijo">
+                    <a class="nav-link" id="link-historia" href="#historia-seccion">
+                        <i class="bi bi-clock-history"></i> Historia
+                    </a>
+                    <a class="nav-link" id="link-mision" href="#mision-seccion">
+                        <i class="bi bi-bullseye"></i> Misión
+                    </a>
+                    <a class="nav-link" id="link-vision" href="#vision-seccion">
+                        <i class="bi bi-eye"></i> Visión
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="col-md-9">
+                <div class="contenido-wrapper scroll-area">
+
+
+                    <div class="seccion" id="historia-seccion">
+                        <h2>
+                            <i class="bi bi-clock-history text-primary"></i>
+                            Nuestra Historia
+                        </h2>
+
+                        <p>
+                            Desde el año 2015 ofrecemos paquetes turísticos nacionales e internacionales,
+                            brindando un servicio de calidad y atención personalizada.
+                        </p>
+
+
+                        <button class="btn btn-primary"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseHistoria">
+                            Ver más
+                        </button>
+
+                        <div class="collapse mt-3" id="collapseHistoria">
+                            <div class="card card-body">
+                                Hemos ayudado a miles de viajeros a conocer destinos como Brasil,
+                                Punta Cana, Miami, Cancún y muchos lugares más.
+                            </div>
+                        </div>
+
+
+                        <div class="mt-4 p-3 bg-light rounded">
+                            <h5>Nuestros inicios</h5>
+                            <p>
+                                Todo comenzó con un pequeño grupo de amigos apasionados por los viajes
+                                que decidieron compartir sus experiencias con otros. Lo que empezó como
+                                un blog de viajes, rápidamente se convirtió en una agencia de turismo
+                                con un enfoque único en la personalización de experiencias.
+                            </p>
+                            <p>
+                                A lo largo de los años, hemos crecido y evolucionado, pero nuestra esencia
+                                sigue siendo la misma: ayudar a las personas a descubrir el mundo de una
+                                manera auténtica y significativa.
+                            </p>
+                        </div>
+
+                        <div class="mt-4 p-3 bg-info bg-opacity-10 rounded">
+                            <h5>Hitos importantes</h5>
+                            <ul>
+                                <li><strong>2015:</strong> Fundación de la agencia</li>
+                                <li><strong>2017:</strong> Primer viaje internacional organizado</li>
+                                <li><strong>2019:</strong> Alianza con hoteles de lujo en el Caribe</li>
+                                <li><strong>2022:</strong> Lanzamiento de nuestra plataforma digital</li>
+                                <li><strong>2024:</strong> Más de 10,000 viajeros satisfechos</li>
+                            </ul>
+                        </div>
+
+                        <div class="mt-4 p-3 bg-success bg-opacity-10 rounded">
+                            <h5>Testimonios</h5>
+                            <blockquote class="blockquote">
+                                <p>
+                                    "Viajando transformó mi forma de ver el mundo. Cada viaje está
+                                    cuidadosamente planeado y supera todas las expectativas."
+                                </p>
+                                <footer class="blockquote-footer">María González, cliente desde 2018</footer>
+                            </blockquote>
+                            <blockquote class="blockquote mt-3">
+                                <p>
+                                    "La atención personalizada y el detalle en cada itinerario hacen
+                                    que Viajando sea mi única opción para viajar."
+                                </p>
+                                <footer class="blockquote-footer">Carlos Rodríguez, cliente desde 2020</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
+
+                    <div class="seccion" id="mision-seccion">
+                        <h2>
+                            <i class="bi bi-bullseye text-success"></i>
+                            Nuestra Misión
+                        </h2>
+
+                        <p>
+                            Brindar experiencias únicas mediante paquetes turísticos accesibles,
+                            seguros y personalizados.
+                        </p>
+
+                        <div class="mt-4 p-3 bg-primary bg-opacity-10 rounded">
+                            <h5>Nuestros valores</h5>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h6><i class="bi bi-check-circle-fill text-success"></i> Calidad</h6>
+                                    <p>Seleccionamos cuidadosamente cada proveedor para garantizar la mejor experiencia.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6><i class="bi bi-shield-fill-check text-success"></i> Seguridad</h6>
+                                    <p>La seguridad de nuestros viajeros es nuestra máxima prioridad.</p>
+                                </div>
+                                <div class="col-md-6 mt-2">
+                                    <h6><i class="bi bi-heart-fill text-success"></i> Pasión</h6>
+                                    <p>Amamos lo que hacemos y eso se refleja en cada viaje que organizamos.</p>
+                                </div>
+                                <div class="col-md-6 mt-2">
+                                    <h6><i class="bi bi-people-fill text-success"></i> Compromiso</h6>
+                                    <p>Nos comprometemos a superar las expectativas de nuestros clientes.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 p-3 bg-warning bg-opacity-10 rounded">
+                            <h5>Nuestro compromiso</h5>
+                            <p>
+                                En Viajando, no solo vendemos viajes; creamos experiencias que perduran en
+                                el tiempo. Cada itinerario está diseñado pensando en los intereses y
+                                necesidades específicas de cada viajero, asegurando que cada destino sea
+                                descubierto de manera única y personal.
+                            </p>
+                            <p>
+                                Además, estamos comprometidos con el turismo sostenible y el respeto por
+                                las culturas locales que visitamos.
+                            </p>
+                        </div>
+                    </div>
+
+  
+                    <div class="seccion" id="vision-seccion">
+                        <h2>
+                            <i class="bi bi-eye text-danger"></i>
+                            Nuestra Visión
+                        </h2>
+
+                        <p>
+                            Ser la agencia de viajes líder del Perú ofreciendo servicios innovadores
+                            y de alta calidad.
+                        </p>
+
+                        <div class="mt-4 p-3 bg-danger bg-opacity-10 rounded">
+                            <h5>Metas a futuro</h5>
+                            <ul>
+                                <li><strong>2026:</strong> Expandir nuestras operaciones a 5 países de Sudamérica</li>
+                                <li><strong>2027:</strong> Desarrollar una app móvil con realidad aumentada</li>
+                                <li><strong>2028:</strong> Establecer alianzas con comunidades locales para turismo sostenible</li>
+                                <li><strong>2030:</strong> Ser reconocidos como la mejor agencia de viajes de Latinoamérica</li>
+                            </ul>
+                        </div>
+
+                        <div class="mt-4 p-3 bg-secondary bg-opacity-10 rounded">
+                            <h5>Innovación tecnológica</h5>
+                            <p>
+                                Estamos invirtiendo en tecnología de vanguardia para ofrecer experiencias
+                                inmersivas a nuestros viajeros. Desde realidad virtual para explorar
+                                destinos antes de viajar, hasta inteligencia artificial para recomendar
+                                itinerarios personalizados.
+                            </p>
+                            <p>
+                                Nuestro objetivo es combinar la calidez del servicio humano con la
+                                eficiencia de la tecnología moderna.
+                            </p>
+                        </div>
+
+                        <div class="mt-4 p-3 bg-primary bg-opacity-10 rounded">
+                            <h5>Compromiso ambiental</h5>
+                            <p>
+                                En Viajando, creemos en el turismo responsable. Por eso, compensamos la
+                                huella de carbono de todos nuestros viajes y trabajamos con proveedores
+                                que comparten nuestros valores de sostenibilidad.
+                            </p>
+                            <p>
+                                Hemos plantado más de 5,000 árboles en colaboración con comunidades locales
+                                y seguimos comprometidos con proteger los destinos que amamos.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
-
-        <div class="col-md-9">
-          <section id="historia" class="mb-5">
-            <h2>
-              <i class="bi bi-clock-history text-primary"></i>
-              Nuestra Historia
-            </h2>
-
-            <p>
-              Desde el año 2015 ofrecemos paquetes turísticos nacionales e
-              internacionales, brindando un servicio de calidad y atención
-              personalizada.
-            </p>
-
-            <button
-              class="btn btn-primary"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseHistoria"
-            >
-              Ver más
-            </button>
-
-            <div class="collapse mt-3" id="collapseHistoria">
-              <div class="card card-body">
-                Hemos ayudado a miles de viajeros a conocer destinos como
-                Brasil, Punta Cana, Miami, Cancún y muchos lugares más.
-              </div>
-            </div>
-
-            <div class="mt-4 p-3 bg-light rounded">
-              <h5>Nuestros inicios</h5>
-              <p>
-                Todo comenzó con un pequeño grupo de amigos apasionados por los
-                viajes que decidieron compartir sus experiencias con otros. Lo
-                que empezó como un blog de viajes, rápidamente se convirtió en
-                una agencia de turismo con un enfoque único en la
-                personalización de experiencias.
-              </p>
-              <p>
-                A lo largo de los años, hemos crecido y evolucionado, pero
-                nuestra esencia sigue siendo la misma: ayudar a las personas a
-                descubrir el mundo de una manera auténtica y significativa.
-              </p>
-            </div>
-
-            <div class="mt-4 p-3 bg-info bg-opacity-10 rounded">
-              <h5>Hitos importantes</h5>
-              <ul>
-                <li><strong>2015:</strong> Fundación de la agencia</li>
-                <li>
-                  <strong>2017:</strong> Primer viaje internacional organizado
-                </li>
-                <li>
-                  <strong>2019:</strong> Alianza con hoteles de lujo en el
-                  Caribe
-                </li>
-                <li>
-                  <strong>2022:</strong> Lanzamiento de nuestra plataforma
-                  digital
-                </li>
-                <li>
-                  <strong>2024:</strong> Más de 10,000 viajeros satisfechos
-                </li>
-              </ul>
-            </div>
-
-            <div class="mt-4 p-3 bg-success bg-opacity-10 rounded">
-              <h5>Testimonios</h5>
-              <blockquote class="blockquote">
-                <p>
-                  "Viajando transformó mi forma de ver el mundo. Cada viaje está
-                  cuidadosamente planeado y supera todas las expectativas."
-                </p>
-                <footer class="blockquote-footer">
-                  María González, cliente desde 2018
-                </footer>
-              </blockquote>
-              <blockquote class="blockquote mt-3">
-                <p>
-                  "La atención personalizada y el detalle en cada itinerario
-                  hacen que Viajando sea mi única opción para viajar."
-                </p>
-                <footer class="blockquote-footer">
-                  Carlos Rodríguez, cliente desde 2020
-                </footer>
-              </blockquote>
-            </div>
-          </section>
-
-          <section id="mision" class="mb-5">
-            <h2>
-              <i class="bi bi-bullseye text-success"></i>
-              Nuestra Misión
-            </h2>
-
-            <p>
-              Brindar experiencias únicas mediante paquetes turísticos
-              accesibles, seguros y personalizados.
-            </p>
-
-            <div class="mt-4 p-3 bg-primary bg-opacity-10 rounded">
-              <h5>Nuestros valores</h5>
-              <div class="row">
-                <div class="col-md-6">
-                  <h6>
-                    <i class="bi bi-check-circle-fill text-success"></i>
-                    Calidad
-                  </h6>
-                  <p>
-                    Seleccionamos cuidadosamente cada proveedor para garantizar
-                    la mejor experiencia.
-                  </p>
-                </div>
-                <div class="col-md-6">
-                  <h6>
-                    <i class="bi bi-shield-fill-check text-success"></i>
-                    Seguridad
-                  </h6>
-                  <p>
-                    La seguridad de nuestros viajeros es nuestra máxima
-                    prioridad.
-                  </p>
-                </div>
-                <div class="col-md-6 mt-2">
-                  <h6><i class="bi bi-heart-fill text-success"></i> Pasión</h6>
-                  <p>
-                    Amamos lo que hacemos y eso se refleja en cada viaje que
-                    organizamos.
-                  </p>
-                </div>
-                <div class="col-md-6 mt-2">
-                  <h6>
-                    <i class="bi bi-people-fill text-success"></i> Compromiso
-                  </h6>
-                  <p>
-                    Nos comprometemos a superar las expectativas de nuestros
-                    clientes.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="mt-4 p-3 bg-warning bg-opacity-10 rounded">
-              <h5>Nuestro compromiso</h5>
-              <p>
-                En Viajando, no solo vendemos viajes; creamos experiencias que
-                perduran en el tiempo. Cada itinerario está diseñado pensando en
-                los intereses y necesidades específicas de cada viajero,
-                asegurando que cada destino sea descubierto de manera única y
-                personal.
-              </p>
-              <p>
-                Además, estamos comprometidos con el turismo sostenible y el
-                respeto por las culturas locales que visitamos.
-              </p>
-            </div>
-          </section>
-
-          <section id="vision">
-            <h2>
-              <i class="bi bi-eye text-danger"></i>
-              Nuestra Visión
-            </h2>
-
-            <p>
-              Ser la agencia de viajes líder del Perú ofreciendo servicios
-              innovadores y de alta calidad.
-            </p>
-            <div class="mt-4 p-3 bg-danger bg-opacity-10 rounded">
-              <h5>Metas a futuro</h5>
-              <ul>
-                <li>
-                  <strong>2026:</strong> Expandir nuestras operaciones a 5
-                  países de Sudamérica
-                </li>
-                <li>
-                  <strong>2027:</strong> Desarrollar una app móvil con realidad
-                  aumentada
-                </li>
-                <li>
-                  <strong>2028:</strong> Establecer alianzas con comunidades
-                  locales para turismo sostenible
-                </li>
-                <li>
-                  <strong>2030:</strong> Ser reconocidos como la mejor agencia
-                  de viajes de Latinoamérica
-                </li>
-              </ul>
-            </div>
-
-            <div class="mt-4 p-3 bg-secondary bg-opacity-10 rounded">
-              <h5>Innovación tecnológica</h5>
-              <p>
-                Estamos invirtiendo en tecnología de vanguardia para ofrecer
-                experiencias inmersivas a nuestros viajeros. Desde realidad
-                virtual para explorar destinos antes de viajar, hasta
-                inteligencia artificial para recomendar itinerarios
-                personalizados.
-              </p>
-              <p>
-                Nuestro objetivo es combinar la calidez del servicio humano con
-                la eficiencia de la tecnología moderna.
-              </p>
-            </div>
-
-            <div class="mt-4 p-3 bg-primary bg-opacity-10 rounded">
-              <h5>Compromiso ambiental</h5>
-              <p>
-                En Viajando, creemos en el turismo responsable. Por eso,
-                compensamos la huella de carbono de todos nuestros viajes y
-                trabajamos con proveedores que comparten nuestros valores de
-                sostenibilidad.
-              </p>
-              <p>
-                Hemos plantado más de 5,000 árboles en colaboración con
-                comunidades locales y seguimos comprometidos con proteger los
-                destinos que amamos.
-              </p>
-            </div>
-          </section>
-        </div>
-      </div>
     </div>
 
+
     <section class="container my-5">
-      <h2 class="text-center mb-4">
-        <i class="bi bi-question-circle-fill text-primary"></i>
+        <h2 class="text-center mb-4">
+            <i class="bi bi-question-circle-fill text-primary"></i>
+            Preguntas Frecuentes
+        </h2>
 
-        Preguntas Frecuentes
-      </h2>
-
-      <div class="accordion" id="faq">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button"
-              data-bs-toggle="collapse"
-              data-bs-target="#uno"
-            >
-              ¿Qué servicios ofrecemos?
-            </button>
-          </h2>
-
-          <div
-            id="uno"
-            class="accordion-collapse collapse show"
-            data-bs-parent="#faq"
-          >
-            <div class="accordion-body">
-              Ofrecemos paquetes turísticos, tours, hospedaje, transporte y
-              asesoría para viajes nacionales e internacionales.
+        <div class="accordion" id="faq">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#uno">
+                        ¿Qué servicios ofrecemos?
+                    </button>
+                </h2>
+                <div id="uno"
+                     class="accordion-collapse collapse show"
+                     data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        Ofrecemos paquetes turísticos, tours, hospedaje,
+                        transporte y asesoría para viajes nacionales e internacionales.
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#dos"
-            >
-              ¿Cómo puedo reservar?
-            </button>
-          </h2>
-
-          <div
-            id="dos"
-            class="accordion-collapse collapse"
-            data-bs-parent="#faq"
-          >
-            <div class="accordion-body">
-              Puede reservar desde nuestra página web o visitando cualquiera de
-              nuestras oficinas.
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#dos">
+                        ¿Cómo puedo reservar?
+                    </button>
+                </h2>
+                <div id="dos"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        Puede reservar desde nuestra página web o visitando
+                        cualquiera de nuestras oficinas.
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#tres"
-            >
-              ¿Aceptan pagos con tarjeta?
-            </button>
-          </h2>
-
-          <div
-            id="tres"
-            class="accordion-collapse collapse"
-            data-bs-parent="#faq"
-          >
-            <div class="accordion-body">
-              Sí. Aceptamos tarjetas Visa, Mastercard, transferencias bancarias
-              y billeteras digitales.
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#tres">
+                        ¿Aceptan pagos con tarjeta?
+                    </button>
+                </h2>
+                <div id="tres"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        Sí. Aceptamos tarjetas Visa, Mastercard,
+                        transferencias bancarias y billeteras digitales.
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
+
     <footer class="bg-dark text-white text-center p-4">
-      <p class="mb-2">© 2026 Viajando</p>
-
-      <i class="bi bi-facebook fs-4"></i>
-
-      <i class="bi bi-instagram fs-4 mx-3"></i>
-
-      <i class="bi bi-youtube fs-4"></i>
+        <p class="mb-2">© 2026 Viajando</p>
+        <i class="bi bi-facebook fs-4"></i>
+        <i class="bi bi-instagram fs-4 mx-3"></i>
+        <i class="bi bi-youtube fs-4"></i>
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
-   
-  </body>
+</body>
 </html>
